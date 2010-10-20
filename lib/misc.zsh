@@ -14,5 +14,5 @@ export LC_CTYPE=en_US.UTF-8
 
 ## pretty man pages
 function pman() {
-    man $1 -t | open -f -a Preview
+    man $1 -t | ps2pdf14 - - | open -f -a Preview
 }
