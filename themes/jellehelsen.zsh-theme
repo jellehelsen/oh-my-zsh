@@ -22,3 +22,5 @@ RPS1='%{$fg[yellow]%}rvm%{$reset_color%}:%{$fg[red]%}$(~/.rvm/bin/rvm-prompt v s
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" %{$fg[cyan]%}("
 ZSH_THEME_GIT_PROMPT_SUFFIX=")%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_DIRTY=" %{$fg[red]%}⚡%{$fg[cyan]%}"
+
