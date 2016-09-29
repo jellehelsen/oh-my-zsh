@@ -40,3 +40,7 @@ fi
 
 # recognize comments
 setopt interactivecomments
+
+function pman() {
+    man $1 -t | ps2pdf14 - - | open -f -a Preview
+}
